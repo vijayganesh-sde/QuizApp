@@ -46,16 +46,12 @@ public class MainActivity extends AppCompatActivity {
 
     private int mQuestionIndex = 0;
     public Question[] mQuestions = {
-            new Question("Who is the TOP G?", "LANA", "MK", "SASHA", "ANDREW TATE", "ANDREW TATE"),
-            new Question("What car does the TOP G have?", "GIRL'S CAR", "GTR", "NANO", "BUGATTI", "BUGATTI"),
-            new Question("What color is his Bugatti?", "PINK", "BLACK", "RED", "MAROON", "MAROON"),
+
             new Question("What is the currency of Japan?", "Yen", "Dollar", "Pound", "Euro", "Yen"),
             new Question("What is the tallest animal on earth?", "Giraffe", "Elephant", "Hippopotamus", "Rhino", "Giraffe"),
             new Question("What is the capital of France?", "Paris", "London", "Berlin", "Madrid", "Paris"),
-            new Question("What is the capital of France?", "Paris", "London", "Berlin", "Madrid", "Paris"),
-            new Question("What is the capital of France?", "Paris", "London", "Berlin", "Madrid", "Paris"),
-            new Question("What is the capital of France?", "Paris", "London", "Berlin", "Madrid", "Paris"),
-            new Question("What is the capital of France?", "Paris", "London", "Berlin", "Madrid", "Paris"),
+            new Question("which year did the Indian Cricket Team win the world cup?", "2011", "2015", "2019", "2007", "2011"),
+            new Question("What is the National Capital of Kerala", "Calicut", "Thiruvananthapuram", "Aluva", "Alappuzha", "Paris")
 
     };
     Question[] questionsArray = new Question[10]; // assume the array has already been populated
