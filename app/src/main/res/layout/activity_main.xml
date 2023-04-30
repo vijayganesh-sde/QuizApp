@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity">
+
+    <TextView
+            android:id="@+id/question_text"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="24sp"
+            android:text="Question text goes here"
+            android:padding="16dp" android:gravity="center"/>
+    <RadioGroup
+            android:id="@+id/options_group"
+            android:layout_below="@id/question_text"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:paddingTop="20dp"
+            android:padding="16dp">
+
+        <RadioButton
+                android:id="@+id/option_a"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:textSize="20sp"
+
+                android:text="Option A"/>
+
+        <RadioButton
+                android:id="@+id/option_b"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:textSize="20sp"
+                android:text="Option B"/>
+
+        <RadioButton
+                android:id="@+id/option_c"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:textSize="20sp"
+                android:text="Option C"/>
+
+        <RadioButton
+                android:id="@+id/option_d"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:textSize="20sp"
+                android:text="Option D"/>
+
+    </RadioGroup>
+
+    <Button
+            android:id="@+id/submit_button"
+            android:layout_below="@id/options_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true"/>
+</RelativeLayout>
